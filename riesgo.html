@@ -13,23 +13,77 @@
 </head>
 
 <body class="p-3">
+<a href="index.html" class="btn btn-secondary mb-3">← Volver</a>
 
-<h1 class="mb-4">Guía clínica de heridas</h1>
+<h1 class="mb-4">Valoración del riesgo – Escala Norton</h1>
 
-<ul class="list-group">
-  <li class="list-group-item">Valoración de riesgo</li>
-  <li class="list-group-item">Clasificación de heridas</li>
-  <li class="list-group-item">Valoración integral</li>
-  <li class="list-group-item">Modelo TIMERS</li>
-  <li class="list-group-item">Materiales de cura</li>
-  <li class="list-group-item">Elección de apósitos</li>
+<p>
+La escala de Norton permite estimar el riesgo de desarrollar úlceras por presión
+mediante la valoración de cinco parámetros clínicos.
+</p>
+
+<table class="table table-bordered">
+  <thead class="table-light">
+    <tr>
+      <th>Parámetro</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Estado físico</td>
+      <td>Muy malo</td>
+      <td>Malo</td>
+      <td>Regular</td>
+      <td>Bueno</td>
+    </tr>
+    <tr>
+      <td>Estado mental</td>
+      <td>Estupor / coma</td>
+      <td>Confuso</td>
+      <td>Apático</td>
+      <td>Alerta</td>
+    </tr>
+    <tr>
+      <td>Actividad</td>
+      <td>Encamado</td>
+      <td>Silla</td>
+      <td>Deambula ocasionalmente</td>
+      <td>Deambula</td>
+    </tr>
+    <tr>
+      <td>Movilidad</td>
+      <td>Inmóvil</td>
+      <td>Muy limitada</td>
+      <td>Ligeramente limitada</td>
+      <td>Completa</td>
+    </tr>
+    <tr>
+      <td>Incontinencia</td>
+      <td>Urinaria y fecal</td>
+      <td>Urinaria</td>
+      <td>Ocasional</td>
+      <td>Ninguna</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 class="mt-4">Interpretación</h2>
+
+<ul>
+  <li><strong>≤ 14 puntos:</strong> Riesgo elevado de úlceras por presión.</li>
+  <li><strong>15–18 puntos:</strong> Riesgo moderado.</li>
+  <li><strong>> 18 puntos:</strong> Riesgo bajo.</li>
 </ul>
 
-<script>
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('service-worker.js');
-}
-</script>
+<div class="alert alert-warning mt-4">
+  La escala de Norton es una herramienta de apoyo a la valoración clínica
+  y no sustituye el juicio profesional.
+</div>
 
 </body>
+
 </html>
