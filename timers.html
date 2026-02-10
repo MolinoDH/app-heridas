@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Guía de Heridas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json">
+</head>
+
+<body class="p-3">
+<a href="index.html" class="btn btn-secondary mb-3">← Volver</a>
+
+<h1>Modelo TIMERS</h1>
+
+<ul class="list-group">
+  <li class="list-group-item">T – Tejido</li>
+  <li class="list-group-item">I – Infección / inflamación</li>
+  <li class="list-group-item">M – Humedad</li>
+  <li class="list-group-item">E – Bordes</li>
+  <li class="list-group-item">S – Factores sociales</li>
+  <li class="list-group-item">R – Regeneración</li>
+  <li class="list-group-item">E – Educación</li>
+</ul>
+
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js');
+}
+</script>
+
+</body>
+</html>
