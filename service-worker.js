@@ -25,6 +25,4 @@ self.addEventListener("fetch", function(event) {
       return response || fetch(event.request);
     })
   );
-
 });
-
